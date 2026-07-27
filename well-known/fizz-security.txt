@@ -1,0 +1,3 @@
+Contact: mailto:info@fizz.social
+Expires: 2028-10-17T07:00:00.000Z
+Policy: https://fizzsocial.notion.site/Fizz-Vulnerability-Disclosure-Policy-b32371f595344efb8cacfea9160bed73

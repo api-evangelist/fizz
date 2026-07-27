@@ -1,8 +1,14 @@
 aid: fizz
 name: Fizz
-description: Fizz is a company surfaced as a portfolio company of lightspeed-venture-partners, nea and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Fizz is a social platform built for college campuses, connecting students within their own
+  school communities across 700+ campuses in the United States. Founded by Stanford students,
+  Fizz gives verified students an anonymous, hyper-local feed to find their community and join the
+  conversation, buy and sell through Fizz Marketplace, and engage under community values of being
+  supportive, curious, honest, and brave. The platform is backed by Lightspeed Venture Partners and
+  NEA. Fizz is a consumer mobile social app and does not publish a public developer API, SDKs, or
+  API documentation; this API Evangelist profile captures its public web, legal, and security
+  surface for network discovery and monitoring.
 url: https://raw.githubusercontent.com/api-evangelist/fizz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +17,32 @@ x-backed-by:
 - nea
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Social
+- Social Networking
+- Community
+- Campus
+- Higher Education
+- Students
+- Consumer
+- Mobile
+- Marketplace
+image: https://fizz.social/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/fizz-vulnerability-disclosure.yml
+- type: Security
+  url: https://fizzsocial.notion.site/Fizz-Vulnerability-Disclosure-Policy-b32371f595344efb8cacfea9160bed73
+- type: DomainSecurity
+  url: security/fizz-domain-security.yml
+- type: WellKnown
+  url: well-known/fizz-well-known.yml
+- type: SecurityTxt
+  url: well-known/fizz-security.txt
 - type: Website
-  url: https://fizzsocial.app
+  url: https://fizz.social
+- type: Blog
+  url: https://fizz.social/blog
+- type: Support
+  url: https://fizz.social/FAQ
+- type: TermsOfService
+  url: https://fizz.social/Guidelines-and-Policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://fizz.social/Guidelines-and-Policies/privacy-policy
+- type: Press
+  url: https://fizz.social/Press
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
